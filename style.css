@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.card {
+    font-size: larger;
+    padding: 10px;
+    margin-right: 0.5%;
+    background-color: #e0e0e0;
+}
+
+.diamonds {
+    color: #960101;
+}
+
+.diamonds::after {
+    content: "♦";
+}
+
+.clubs {
+    color:black;
+}
+
+.clubs::after {
+    content: "♣";
+}
+
+.spades {
+    color:black;
+}
+
+.spades::after {
+    content: "♠";
+}
+
+.hearts {
+    color:#960101;
+}
+
+.hearts::after {
+    content: "♥";
+}
+
+.card-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
